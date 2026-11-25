@@ -1,0 +1,17 @@
+Bounty: Worst Fix Ever: Funniest Commit Message
+Slug: u-deysumbrella-worst-fix-ever-funniest-commit-message-3f1d9722
+URL: https://make.fun/bounty/u-deysumbrella-worst-fix-ever-funniest-commit-message-3f1d9722
+Prize: $2. Closes: 25 Nov 2026 20:45 WIB (13:45 UTC). Entry fee: none (free).
+Account: @jeannaldtzy / GitHub DarelHarteraVBY2C.
+
+Brief: write ONE commit message, at most 100 characters, for a bug fix
+that made everything worse. It must read like a real commit message in
+a real repo's history. The house judge weighs: first whether it really
+is a commit message about a fix that backfired, then funniness, then how
+sharp the irony is.
+
+Entry (69 characters, 1 line, no trailing period):
+"fix: stop the crash on empty input by crashing on every input instead"
+
+Program: main.ts (Node 22, stdlib only) validates the message (one line,
+1-100 characters, conventional-commit style) and writes it to /output/entry.txt.
